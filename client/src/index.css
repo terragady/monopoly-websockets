@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Avenir', sans-serif;
+}
+
+body {
+  cursor: url('./cursor.png'), auto;
+  font-size: 0.8vw;
+}
+
+button {
+  outline: none;
+}
+
+button:disabled{
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.open-market__sell-toast {
+  position: fixed;
+  background-color: rgba(200, 232, 170, 0.842);
+  border-radius: 10px;
+  border: 2px solid blue;
+  top:  30%;
+  left: 30%;
+  width:  40%;
+  height: 30%;
+  padding: 5vmin;
+
+}
+
+.open-market__sell-toast__close {
+  position: absolute;
+  top:  1vmin;
+  left: 1vmin;
+}
+
+.open-market__sell-toast-form {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.log-chat-name {
+  text-shadow: 0px 0px 1px black;
+  /* letter-spacing: 0.2vmin;
+  text-shadow:
+  -0.5px -0.5px 0 #000,  
+   0.5px -0.5px 0 #000,
+   -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000; */
+  font-weight: bold;
+
+}
+
+.bancrupt-message {
+  color: red;
+  font-weight: bold;
+}

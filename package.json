@@ -1,0 +1,36 @@
+{
+  "name": "monopoly-socket-app",
+  "version": "1.0.0",
+  "description": "a monopoly game",
+  "main": "server.js",
+  "scripts": {
+    "lint": "eslint . --ext .js --ext .jsx --quiet --fix",
+    "pregit": "git add . ",
+    "git": "git commit -m",
+    "postgit": "git push --all",
+    "client": "npm start --prefix client",
+    "server": "nodemon server.js",
+    "start": "node server.js",
+    "build": "yarn install --prefix client && yarn run build --prefix client",
+    "start-prod": "yarn run build && NODE_ENV=production yarn run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terragady/final-project.git"
+  },
+  "author": "The Coderleones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terragady/final-project/issues"
+  },
+  "homepage": "https://github.com/terragady/final-project#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "socket.io": "^4.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "nodemon": "^2.0.4"
+  }
+}

@@ -1,0 +1,120 @@
+.tile-back--container {
+  position: relative;
+}
+
+.Tile-back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150%;
+  height: 150%;
+  text-align: center;
+  border: 1px solid black;
+  position: absolute;
+  top: -50%;
+  left: -25%;
+  z-index: 1;
+  background: rgb(191, 234, 163);
+}
+
+.tile-back__tile__horizontal--top {
+  position: absolute;
+  top: 0;
+  left: -25%;
+}
+
+.tile-back__tile__vertical--right {
+  position: absolute;
+  top: -25%;
+  left: -50%;
+}
+
+.tile-back__tile__horizontal--bottom {
+  position: absolute;
+  bottom: 0;
+  left: -25%;
+}
+
+.tile-back__tile__vertical--left {
+  position: absolute;
+  top: -25%;
+  left: 0;
+}
+
+.Tile-back:hover {
+  cursor: pointer;
+}
+
+.tile-back__name {
+  flex: 0;
+  align-self: center;
+  border: 1px solid black;
+  margin-top: 0.25vmin;
+  font-weight: bold;
+  width: 95%;
+  padding: 0.25vmin 0vmin;
+  background: rgb(255, 255, 255, 0.50);
+  line-height: 2vmin;
+  word-break: break-all;
+  white-space: nowrap;
+  font-size: 1.1vmin;
+}
+
+.tile-back__prices {
+  display: flex;
+  margin: 0.5vmin 0vmin;
+  font-size: 1vmin;
+}
+
+.tile-back__price {
+  margin-right: 0.5vmin;
+}
+
+.tile-back__rent {
+}
+
+.tile-back__line {
+  width: 95%;
+  margin-bottom: 0.5vmin;
+  border-top: 1px solid black;
+}
+
+.tile-back__details--wrapper {
+  width: 90%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tile-back__details {
+  font-size: 1vmin;
+}
+
+.tile-back__details--price {
+  font-size: 1vmin;
+}
+
+.tile-back__buttons {
+  position: absolute;
+  bottom:0;
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 0.1vmin;
+}
+
+.tile-back__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  height: 2vmin;
+  padding: 0.5vmin 0.5vmin;
+  background: rgb(255, 255, 255, 0.50);
+  border: 1px solid black;
+  border-radius: 0.25vmin;
+  color: black;
+  font-size: 1.25vmin;
+}

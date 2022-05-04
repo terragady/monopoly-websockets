@@ -1,0 +1,379 @@
+.Board {
+  display: grid;
+  grid-template-columns: 1.5fr repeat(9, 1.5fr) 1.5fr;
+  grid-template-rows: 1.5fr repeat(9, 1.5fr) 1.5fr;
+  grid-gap: 0px;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(191, 234, 163);
+  border: 2px solid black;
+}
+
+.Tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.Tile:hover {
+  cursor: pointer;
+}
+
+.tile0 {
+  grid-area: 11 / 11 / 12 / 12;
+  background-image: url('https://i.pinimg.com/originals/a9/b6/8a/a9b68a1213ecc93ee5f07b3423d0e913.gif');
+  background-position: center -0.6vmin;
+  background-repeat: no-repeat;
+  background-size: 9vmin;
+}
+
+.tile1 {
+  grid-area: 11 / 10 / 12 / 11;
+  position: relative;
+}
+
+.tile2 {
+  grid-area: 11 / 9 / 12 / 10;
+  background-image: url('https://i.pinimg.com/originals/aa/98/84/aa98846a483c4de09ea31b9c1e3fd8a1.gif');
+  background-position: center 1.5vmin;
+  background-repeat: no-repeat;
+  background-size: 7.25vmin;
+}
+
+.tile3 {
+  grid-area: 11 / 8 / 12 / 9;
+}
+
+.tile4 {
+  grid-area: 11 / 7 / 12 / 8;
+  background-image: url('https://cdn4.iconfinder.com/data/icons/business-bicolor-1/512/salary-512.png');
+  background-position: center 2.5vmin;
+  background-repeat: no-repeat;
+  background-size: 4vmin;
+}
+
+.tile5 {
+  grid-area: 11 / 6 / 12 / 7;
+  background-image: url('https://i.pinimg.com/originals/02/43/87/0243879c56257b841de3a891941b48ad.png');
+  background-position: center 2vmin;
+  background-repeat: no-repeat;
+  background-size: 5vmin;
+}
+
+.tile6 {
+  grid-area: 11 / 5 / 12 / 6;
+}
+
+.tile7 {
+  grid-area: 11 / 4 / 12 / 5;
+  background-image: url('https://pngimg.com/uploads/question_mark/question_mark_PNG121.png');
+  background-position: center 2.5vmin;
+  background-repeat: no-repeat;
+  background-size: 3.5vmin;
+}
+
+.tile8 {
+  grid-area: 11 / 3 / 12 / 4;
+}
+
+.tile9 {
+  grid-area: 11 / 2 / 12 / 3;
+}
+
+.tile10 {
+  grid-area: 11 / 1 / 12 / 2;
+  background-image: url('https://cdn.iconscout.com/icon/premium/png-256-thumb/jail-1488489-1259723.png');
+  background-position: center 2.5vmin;
+  background-repeat: no-repeat;
+  background-size: 5.25vmin;
+}
+
+.tile11 {
+  grid-area: 10 / 1 / 11 / 2;
+}
+
+.tile12 {
+  grid-area: 9 / 1 / 10 / 2;
+  background-image: url('https://i.pinimg.com/originals/a8/a6/20/a8a620c5f79c2b85554352148eac732f.gif');
+  background-position: center 2vmin;
+  background-repeat: no-repeat;
+  background-size: 3.5vmin;
+}
+
+.tile13 {
+  grid-area: 8 / 1 / 9 / 2;
+}
+
+.tile14 {
+  grid-area: 7 / 1 / 8 / 2;
+}
+
+.tile15 {
+  grid-area: 6 / 1 / 7 / 2;
+  background-image: url('https://i.pinimg.com/originals/02/43/87/0243879c56257b841de3a891941b48ad.png');
+  background-position: center 2vmin;
+  background-repeat: no-repeat;
+  background-size: 5vmin;
+}
+
+.tile16 {
+  grid-area: 5 / 1 / 6 / 2;
+}
+
+.tile17 {
+  grid-area: 4 / 1 / 5 / 2;
+  background-image: url('https://pngimg.com/uploads/question_mark/question_mark_PNG121.png');
+  background-position: center 2.5vmin;
+  background-repeat: no-repeat;
+  background-size: 3.5vmin;
+}
+
+.tile18 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.tile19 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.tile20 {
+  grid-area: 1 / 1 / 2 / 2;
+  background-image: url('https://s3.amazonaws.com/images.hamlethub.com/hh20mediafolder/942/201611/parking_large-1480365634.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; 
+}
+
+.tile21 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.tile22 {
+  grid-area: 1 / 3 / 2 / 4;
+  background-image: url('https://pngimg.com/uploads/question_mark/question_mark_PNG121.png');
+  background-position: center 2.5vmin;
+  background-repeat: no-repeat;
+  background-size: 3.5vmin;
+}
+
+.tile23 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+
+.tile24 {
+  grid-area: 1 / 5 / 2 / 6;
+}
+
+.tile25 {
+  grid-area: 1 / 6 / 2 / 7;
+  background-image: url('https://i.pinimg.com/originals/02/43/87/0243879c56257b841de3a891941b48ad.png');
+  background-position: center 2vmin;
+  background-repeat: no-repeat;
+  background-size: 5vmin;
+}
+
+.tile26 {
+  grid-area: 1 / 7 / 2 / 8;
+}
+
+.tile27 {
+  grid-area: 1 / 8 / 2 / 9;
+}
+
+.tile28 {
+  grid-area: 1 / 9 / 2 / 10;
+  background-image: url('https://static.thenounproject.com/png/1929131-200.png');
+  background-position: center 2.5vmin;
+  background-repeat: no-repeat;
+  background-size: 3.5vmin;
+}
+
+.tile29 {
+  grid-area: 1 / 10 / 2 / 11;
+}
+
+.tile30 {
+  grid-area: 1 / 11 / 2 / 12;
+  background-image: url('https://www.pinclipart.com/picdir/big/127-1274529_prison-clipart-gates-monopoly-go-to-jail-man.png');
+  background-position: center 2.5vmin;
+  background-repeat: no-repeat;
+  background-size: 7vmin;
+}
+
+.tile31 {
+  grid-area: 2 / 11 / 3 / 12;
+}
+
+.tile32 {
+  grid-area: 3 / 11 / 4 / 12;
+}
+
+.tile33 {
+  grid-area: 4 / 11 / 5 / 12;
+  background-image: url('https://i.pinimg.com/originals/aa/98/84/aa98846a483c4de09ea31b9c1e3fd8a1.gif');
+  background-position: center 1.5vmin;
+  background-repeat: no-repeat;
+  background-size: 7.25vmin;
+}
+
+.tile34 {
+  grid-area: 5 / 11 / 6 / 12;
+}
+
+.tile35 {
+  grid-area: 6 / 11 / 7 / 12;
+  background-image: url('https://i.pinimg.com/originals/02/43/87/0243879c56257b841de3a891941b48ad.png');
+  background-position: center 2vmin;
+  background-repeat: no-repeat;
+  background-size: 5vmin;
+}
+
+.tile36 {
+  grid-area: 7 / 11 / 8 / 12;
+  background-image: url('https://pngimg.com/uploads/question_mark/question_mark_PNG121.png');
+  background-position: center 2.5vmin;
+  background-repeat: no-repeat;
+  background-size: 3.5vmin;
+}
+
+.tile37 {
+  grid-area: 8 / 11 / 9 / 12;
+}
+
+.tile38 {
+  grid-area: 9 / 11 / 10 / 12;
+  background-image: url('https://cdn4.iconfinder.com/data/icons/business-bicolor-1/512/salary-512.png');
+  background-position: center 2.5vmin;
+  background-repeat: no-repeat;
+  background-size: 4vmin;
+}
+
+.tile39 {
+  grid-area: 10 / 11 / 11 / 12;
+}
+
+.center {
+  grid-area: 2 / 2 / 11 / 11;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "dice log"
+  "dashboard dashboard";
+  width: 92%;
+  position: relative;
+  margin: 5vmin;
+  padding: 2vw 3vw 2vw 4vw;
+  background:rgba(255, 255, 255, 0.50);
+}
+
+.tile__start {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.tile__horizontal--top {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.tile__horizontal--top .tile__color-box {
+  order: 1;
+  height: 1.5vh;
+  border-top: 1px solid black;
+}
+
+.tile__vertical--right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.tile__vertical--right .tile__color-box {
+  width: 1.5vh;
+  height: 100%;
+  margin-right: 1.5vh;
+  border-right: 1px solid black;
+}
+
+.tile__horizontal--bottom {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.tile__horizontal--bottom .tile__street-name {
+  margin-top: -6vh;
+  margin-bottom: 0.5vh;
+}
+
+.tile__horizontal--bottom .tile__color-box {
+  height: 1.5vh;
+  border-bottom: 1px solid black;
+}
+
+.tile__vertical--left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.tile__vertical--left .tile__color-box {
+  order: 1;
+  width: 1.5vh;
+  height: 100%;
+  border-bottom: 0;
+  margin-left: 1.5vh;
+  border-left: 1px solid black;
+}
+
+.tile__wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.tile__special--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.tile__street-name {
+  margin-top: 2.5vh;
+  margin-bottom: 0.5vh;
+}
+
+.tile__special-name {
+  margin-top: 0.4vmin;
+  font-weight: bold;
+}
+
+.tile__price {
+  font-weight: bold;
+}
+
+.tile__special--price {
+  margin-bottom: 0.4vmin;
+  font-weight: bold;
+}
+
+.player__token--wrapper {
+  display: flex;
+  position: absolute;
+}
+
+.player__token {
+  width: 2vmin;
+  height: 2vmin;
+  border: 1px solid black;
+  border-radius: 100%;
+}

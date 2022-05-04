@@ -1,0 +1,49 @@
+.dashboard__market-place--container {
+display: flex;
+flex-direction: column;
+width: 50%;
+padding: 0.5vmin;
+text-align: center;
+}
+
+.dashboard__market-place {
+display: flex;
+width: 100%;
+justify-content: space-evenly;
+}
+
+.dashboard__market-place__title {
+  margin-bottom: 1.5vmin;
+  font-size: 2.25vmin;
+}
+
+.dashboard__market-place__subtitle {
+  font-size: 1.5vmin;
+  margin-bottom: 0.5vmin;
+}
+
+.dashboard__market-place__block {
+  width: 100%;
+  justify-content: space-evenly;
+  align-self: flex-end;
+  font-size: 1.25vmin;
+  line-height: 2vmin;
+}
+
+.dashboard__market-place__buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dashboard__market-place__buttons:hover {
+  cursor: pointer;
+}
+
+.dashboard__market-place__icon-v {
+  font-size: 1.75vmin;
+  color: green;
+}
+
+.dashboard__market-place__icon-x {
+  font-size: 1vmin;
+}

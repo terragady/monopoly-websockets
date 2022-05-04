@@ -1,0 +1,198 @@
+.center__dashboard--container {
+  grid-area: 'dashboard';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 65%;
+  margin-top: 1vmin;
+  padding: 2vmin;
+}
+
+.center__dashboard {
+  display: flex;
+  flex: 1;
+  height: 95%;
+}
+
+.center__dashboard--current-player {
+  display: flex;
+  height: 5%;
+  margin-bottom: 1vmin;
+  padding: 1vmin;
+}
+
+.center__dashboard--img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -0.1%;
+  left: -0.1%;
+  background-image: url('../../The_Coderleones_logo_black.png');
+  background-repeat: no-repeat;
+  background-position: 100% 105%;
+  background-size: 12.5vmin;
+  opacity: 25%;
+  pointer-events: none;
+}
+
+.center__dashboard__players {
+  margin-bottom: 1vmin;
+}
+
+.center__dashboard__block {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-right: 1%;
+  padding: 1%;
+  /* border: 1px solid black; */
+}
+
+.center__dashboard__title {
+  margin-bottom: 1.5vmin;
+  font-size: 2.25vmin;
+}
+
+.center__dashboard__player-info {
+  font-size: 1.5vmin;
+}
+
+.center__dashboard__player-info__name {
+  font-size: 1.9vmin;
+  letter-spacing: 0.1vmin;
+}
+
+.center__dashboard__player-info__current {
+  margin-left: 1vmin;
+  font-size: 1.5vmin;
+}
+
+.button__purchase--yes, .button__purchase--no, .button__start-game {
+  align-self: left;
+  border-radius: 0.5vmin;
+  padding: 0.5vmin 1vmin;
+  font-size: 1.5vmin;
+  background: rgb(200, 232, 170);
+  color: black;
+  width: 100%;
+  margin: 1vmin 0vmin;
+}
+
+.button__purchase--yes {
+  border: 1px solid rgb(0, 128, 0);
+  background: rgb(255, 255, 255, 0.5);
+}
+
+.button__purchase--no {
+  border: 1px solid rgb(255, 0, 0);
+  background: rgb(255, 255, 255, 0.5);
+}
+
+.button__start-game {
+  border: 1px solid grey;
+  background: rgb(255, 255, 255, 0.5);
+}
+
+.center__dashboard__button__purchase {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.open-market__sell-toast__title {
+  font-size: 2vmin;
+  margin-bottom: 2vmin;
+}
+
+.open-market__sell-toast {
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+align-items: center;
+}
+
+.open-market__sell-toast__form {
+font-size: 1.5vmin;
+width: 100%;
+height: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.open-market__sell-toast__input--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.open-market__sell-toast__input {
+  margin: 1vmin 0vmin;
+  padding-left: 0.5vmin;
+  padding-right: 0.5vmin;
+  width: 20%;
+  height: 3.5vmin;
+  background: rgb(255, 255, 255, 0.5);
+  border: 1px solid grey;
+  border-radius: 0.5vmin;
+}
+
+.open-market__sell-toast__button {
+  align-self: left;
+  border-radius: 0.5vmin;
+  padding: 0.5vmin 1vmin;
+  background: rgb(255, 255, 255, 0.5);
+  color: black;
+  margin: 0.5vmin 0.5vmin;
+  border: 1px solid rgb(0, 128, 0);
+  width: 10vmin;
+  font-size: 1.5vmin;
+  height: 3.5vmin;
+}
+
+.open-market__sell-toast__button--yes, .open-market__sell-toast__button--no {
+  align-self: left;
+  border-radius: 0.5vmin;
+  padding: 0.5vmin 1vmin;
+  background: rgb(255, 255, 255, 0.5);
+  color: black;
+  margin: 0.5vmin 0.5vmin;
+  border: 1px solid grey;
+  width: 10vmin;
+  font-size: 1.5vmin;
+  height: 3.5vmin;
+}
+
+.open-market__sell-toast__button--yes {
+  border: 1px solid rgb(0, 128, 0);
+  background: rgb(255, 255, 255, 0.5);
+}
+
+.open-market__sell-toast__button--no {
+  border: 1px solid rgb(255, 0, 0);
+  background: rgb(255, 255, 255, 0.5);
+}
+
+.open-market__offer__title {
+  font-size: 2vmin;
+}
+
+.open-market__offer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+  padding: 0.5vmin;
+  height: 15vmin;
+  font-size: 1.25vmin;
+}
+
+.open-market__offer__buttons {
+  display: flex;
+}
