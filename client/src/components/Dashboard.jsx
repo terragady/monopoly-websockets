@@ -42,6 +42,7 @@ export default function Dashboard() {
       const { tileName, price, ownerName } = info;
       alert.show(`${ownerName} accepted your offer to buy ${tileName} for $${price}M`);
     });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleAcceptOffer = offer => {

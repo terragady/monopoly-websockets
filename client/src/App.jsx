@@ -6,8 +6,8 @@ import Board from './components/Board';
 import stateContext from './internal';
 
 const url = window.location.hostname === 'localhost' ? 'http://localhost:8080' : window.location.origin;
-console.log(url);
-const socket = io.connect(url);
+
+const socket = io(url);
 const socketFunctions = {
   makeMove: num => socket.emit('makeMove', num),
   newPlayer: name => socket.emit('new player', name),
