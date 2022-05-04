@@ -7093,7 +7093,7 @@
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.11.0.tgz"
   "version" "0.11.0"
 
-"react-scripts@^5.0.0":
+"react-scripts@^5.0.1":
   "integrity" "sha512-8VAmEm/ZAwQzJ+GOMLbBsTdDKOpuZh7RPs0UymvBR2vRk4iZWCskjbFnxqjrzoIvlNNRZ3QJFx6/qDSi6zSnaQ=="
   "resolved" "https://registry.npmjs.org/react-scripts/-/react-scripts-5.0.1.tgz"
   "version" "5.0.1"
