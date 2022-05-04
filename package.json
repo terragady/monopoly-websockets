@@ -8,11 +8,11 @@
     "pregit": "git add . ",
     "git": "git commit -m",
     "postgit": "git push --all",
-    "client": "npm start --prefix client",
+    "client": "yarn start --cwd client",
     "server": "nodemon server.js",
     "start": "node server.js",
-    "build": "npm install --prefix client && npm run build --prefix client",
-    "start-prod": "npm run build && NODE_ENV=production npm run start"
+    "build": "yarn --cwd client install&&yarn --cwd client build",
+    "start-prod": "yarn run build&&set NODE_ENV=production&&yarn run start"
   },
   "dependencies": {
     "body-parser": "^1.20.0",
