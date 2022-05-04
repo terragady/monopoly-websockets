@@ -2,10 +2,6 @@
   "name": "client-monopolywebsockets",
   "version": "0.1.0",
   "private": true,
-  "engines":{
-    "node": "latest",
-    "yarn": "latest"
-  },
   "dependencies": {
     "monopolywebsockets": "file:..",
     "prop-types": "^15.8.1",

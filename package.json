@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "a monopoly game",
   "main": "server.js",
+  "engines":{
+    "node": ">=10",
+    "yarn": ">=1.22.18"
+  },
   "scripts": {
     "lint": "eslint . --ext .js --ext .jsx --quiet --fix",
     "pregit": "git add . ",
     "git": "git commit -m",
     "postgit": "git push --all",
-    "client": "yarn start --cwd client",
+    "client": "yarn --cwd client start",
     "server": "nodemon server.js",
     "start": "node server.js",
     "build": "yarn --cwd client install&&yarn --cwd client build",
