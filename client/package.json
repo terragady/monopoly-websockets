@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "monopolywebsockets": "file:..",
     "prop-types": "^15.8.1",
     "react": "17",
     "react-alert": "^7.0.3",
