@@ -1,9 +1,9 @@
 # The Coderleones Final Project for </Salt> School of Applied Technology Spring 2020 
-![GitHub language count](https://img.shields.io/github/languages/count/terragady/final-project)
-![GitHub top language](https://img.shields.io/github/languages/top/terragady/final-project)
-![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/terragady/final-project)
-![GitHub repo size](https://img.shields.io/github/repo-size/terragady/final-project)
-![GitHub](https://img.shields.io/github/license/terragady/final-project)
+![GitHub language count](https://img.shields.io/github/languages/count/terragady/monopoly-websockets)
+![GitHub top language](https://img.shields.io/github/languages/top/terragady/monopoly-websockets)
+![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/terragady/monopoly-websockets)
+![GitHub repo size](https://img.shields.io/github/repo-size/terragady/monopoly-websockets)
+![GitHub](https://img.shields.io/github/license/terragady/monopoly-websockets)
 
 
 ## The Monopoly Game
