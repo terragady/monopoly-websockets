@@ -12,6 +12,9 @@ The app is deployed here: [https://monopolywebsockets.herokuapp.com/](https://mo
 
 When playing, everything that happens gets logged to the log / chat. Pay close attention to this!
 
+![image](https://user-images.githubusercontent.com/19210041/187416300-fd0c4e0c-8942-4c36-863d-6b00664d3e0b.png)
+
+
 ## The technology
 The app is built using React and Express. Front-end <-> Back-end communication is done with WebSockets using socket.io as a framework. State changes are handled server-side, then pushed to all connected clients in order to facilitate real-time change and ensure that the view is the same for all clients.
 

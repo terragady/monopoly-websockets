@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d61f783f.css",
+    "main.js": "/static/js/main.379c40f8.js",
+    "static/media/The_Coderleones_logo_black.png": "/static/media/The_Coderleones_logo_black.245f6ee0c23ed64ce7ce.png",
+    "index.html": "/index.html",
+    "main.d61f783f.css.map": "/static/css/main.d61f783f.css.map",
+    "main.379c40f8.js.map": "/static/js/main.379c40f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d61f783f.css",
+    "static/js/main.379c40f8.js"
+  ]
+}
